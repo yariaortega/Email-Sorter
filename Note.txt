@@ -1,0 +1,8 @@
+How to run
+
+1. Save the script as check_ionos.py
+2. Place union.txt in the same folder
+3. Run: pip install dnspython
+3. Run: python check_ionos.py
+
+The file ionos_emails.txt will be generated with the filtered list

@@ -5,5 +5,6 @@ How to run
 3. Run: pip install dnspython
 3. Run: python check_ionos.py
 4. Run: python check_strato.py
+5. Run: python check_office.py
 
 The file ionos_emails.txt will be generated with the filtered list

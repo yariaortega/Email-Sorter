@@ -22,8 +22,8 @@ for email in unique_emails:
 domains = list(domain_to_emails.keys())
 print(f"Found {len(unique_emails)} unique emails across {len(domains)} domains.")
 
-# OFFICE / RZONE indicators in MX records
-STRATO_KEYWORDS = ['outlook']
+# OFFICE / OUTLOOK indicators in MX records
+OFFICE_KEYWORDS = ['outlook']
 
 def check_domain(domain):
     try:

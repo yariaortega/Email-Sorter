@@ -6,7 +6,7 @@ INPUT_FILE = "union.txt"
 OUTPUT_FILE = "ionos_emails.txt"
 
 # Read and parse the UTF-16LE file
-with open(INPUT_FILE, 'r', encoding='utf-16le') as f:
+with open(INPUT_FILE, 'r', encoding='utf-8') as f:
     content = f.read()
 
 # Extract all email addresses
